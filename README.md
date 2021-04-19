@@ -1,6 +1,6 @@
-# BCQ API DEBING
+# BCQ API BEGIN
 
-This project is a basic Register, Login/Logout app using Docker environment, NoSql database with MongoDB and Symfony.
+This project is a register,login,disconnect, quote and invoice creation app using Docker environment, NoSql database with MongoDB and Symfony.
 Please run following steps :
 
 ## Clone the project
