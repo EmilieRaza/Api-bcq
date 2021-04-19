@@ -1,4 +1,4 @@
-# MongoDB_Symfony_User_Reg
+# BCQ API DEBING
 
 This project is a basic Register, Login/Logout app using Docker environment, NoSql database with MongoDB and Symfony.
 Please run following steps :
