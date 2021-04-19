@@ -11,7 +11,7 @@ class RegistrationType extends AbstractTypeExtension
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        // Adding new fields works just like in the parent form type.
+   
         $builder->add('termsAccepted', CheckboxType::class)
                 ->add('firstname', TextType::class)
                 ->add('lastname', TextType::class);

@@ -6,7 +6,7 @@ Please run following steps :
 ## Clone the project
 
 ``` 
-$ git clone https://github.com/Younsunart/MongoDB_Symfony_User_Reg.git 
+$ git clone https://github.com/EmilieRaza/Api-bcq
 ```
 
 ## Install Environment
@@ -51,10 +51,10 @@ MONGODB_DB=dbname
 ```
 
 ## Test
-Test your app using those routes :
+Test bcq app using those routes :
 ``` 
 http://localhost:8080/register
 http://localhost:8080/login
 http://localhost:8080/logout
 ```
-Complete documentation is coming, work in progress !
+
