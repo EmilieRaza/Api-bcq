@@ -1,0 +1,5 @@
+nucleos_profile:
+    resource: "@NucleosProfileBundle/Resources/config/routing/all.xml"
+nucleos_profile_profile:
+    resource: "@NucleosProfileBundle/Resources/config/routing/profile.xml"
+    prefix: /profile

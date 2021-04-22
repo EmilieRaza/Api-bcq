@@ -1,0 +1,36 @@
+{# <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link href="../../../../assets/styles/front/app.scss" rel="stylesheet"> #}
+        {# Run `composer require symfony/webpack-encore-bundle`
+           and uncomment the following Encore helpers to start using Symfony UX #}
+        {# {% block stylesheets %}
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
+
+        {% block javascripts %} #}
+            {# {{ encore_entry_script_tags('app') }} #}
+        {# {% endblock %}
+    </head>
+    <body style="background-color:#5090cd!important">
+        {% block body %}{% endblock %}
+    </body>
+</html> #}
+
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+        <meta name="author" content="Emilie Razafimahatratra">
+        <title>{% block title %}{{ 'DevFusion' }}{% endblock %}</title>
+        <meta name="description" content="{% block description %}{{ '' }}{% endblock %}" />
+        <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="{{ asset('build/images/logo.png') }}" />
+        {% block stylesheets %}{% endblock %}
+    </head>
+    {% block body %}{% endblock %}
+</html>

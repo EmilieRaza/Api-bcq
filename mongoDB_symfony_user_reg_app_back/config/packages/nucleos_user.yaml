@@ -1,0 +1,6 @@
+nucleos_user:
+    db_driver: mongodb
+    firewall_name: main
+    user_class: App\Document\User
+    from_email:   "businesscloudappservice@gmail.com"
+
