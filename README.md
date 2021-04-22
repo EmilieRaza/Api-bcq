@@ -1,12 +1,8 @@
-<<<<<<< HEAD
+
 # BCQ API
 
 This project is a basic User Register, Login/Logout, crud bill app using Docker environment, NoSql database with MongoDB and Symfony.
-=======
-# BCQ API BEGIN
 
-This project is a register,login,disconnect, quote and invoice creation app using Docker environment, NoSql database with MongoDB and Symfony.
->>>>>>> c8792303be52ee3da34572dc9619d9bbd30ca6ca
 Please run following steps :
 
 ## Clone the project
@@ -53,7 +49,7 @@ $ composer install
 Add an .env.local in root App folder, and store your database server location with credentials, and the dbname:
 ``` 
 MONGODB_URL=mongodb://username:password@localhost:27017/?authSource=admin
-MONGODB_DB=dbname
+MONGODB_DB=bcq
 ```
 
 ## Test
