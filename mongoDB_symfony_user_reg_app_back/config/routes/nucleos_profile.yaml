@@ -1,2 +1,0 @@
-nucleos_profile:
-    resource: "@NucleosProfileBundle/Resources/config/routing/all.xml"

@@ -1,6 +1,0 @@
-nucleos_profile:
-    registration:
-        confirmation:
-            from_email:  "test@test.com"
-        form:
-            model: App\Form\Model\Registration
