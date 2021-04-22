@@ -1,0 +1,29 @@
+version: '3.1'
+services:
+  #apache_ms_user_reg:
+    #build: './apache/'
+    #depends_on:
+      #- php_ms_user_reg
+    #ports:
+      #- "8080:80"
+    #volumes:
+      #- ../mongoDB_symfony_user_reg_app_back:/var/www/html/ms_user_reg/back
+
+  nginx_ms_user_reg:
+    image: nginx:1.17
+    container_name: mongoDB_symfony_user_reg_app_nginx
+    depends_on:
+      - php_ms_user_reg
+    volumes:
+      - ../mongoDB_symfony_user_reg_app_back:/var/www/ms_user_reg/back
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+    ports:
+      - 8080:80
+
+  php_ms_user_reg:
+    build: ./php
+    container_name: mongoDB_symfony_user_reg_app_php
+    volumes:
+      - ../mongoDB_symfony_user_reg_app_back:/var/www/ms_user_reg/back
+  
+  
